@@ -17,7 +17,8 @@
       <a href="#hero" class="nav__logo">YN<span class="accent">.</span></a>
       <ul class="nav__links" id="navLinks">
         <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -165,6 +166,239 @@
     </div>
   </section>
 
+  <!-- Experience -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <h2 class="section__title">Work <span class="accent">Experience</span></h2>
+      <div class="timeline">
+
+        <article class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <div class="timeline__title-group">
+                <h3 class="timeline__role">Senior Software Engineer</h3>
+                <p class="timeline__company">Acme Corporation</p>
+              </div>
+              <div class="timeline__meta">
+                <span class="timeline__date">Jan 2023 – Present</span>
+                <span class="timeline__location">San Francisco, CA · Full-time</span>
+              </div>
+            </div>
+            <p class="timeline__summary">
+              Led development of the company's core product platform, scaling it from 10k to 200k monthly active users.
+              Owned the migration from a monolith to a microservices architecture.
+            </p>
+            <ul class="timeline__bullets">
+              <li>Architected and shipped a real-time notification system handling 5M+ events/day using WebSockets and Redis Pub/Sub.</li>
+              <li>Reduced p95 API response time by 60% through query optimization and strategic caching.</li>
+              <li>Mentored 3 junior engineers and led bi-weekly code reviews, raising overall code quality scores by 40%.</li>
+              <li>Drove adoption of TypeScript across the team, reducing production bugs by 35%.</li>
+            </ul>
+            <div class="timeline__tags">
+              <span>React</span><span>TypeScript</span><span>Node.js</span><span>Redis</span><span>AWS</span><span>PostgreSQL</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <div class="timeline__title-group">
+                <h3 class="timeline__role">Software Engineer</h3>
+                <p class="timeline__company">Initech Solutions</p>
+              </div>
+              <div class="timeline__meta">
+                <span class="timeline__date">Jun 2021 – Dec 2022</span>
+                <span class="timeline__location">Remote · Full-time</span>
+              </div>
+            </div>
+            <p class="timeline__summary">
+              Worked on a B2B SaaS analytics platform serving 300+ enterprise clients. Owned the frontend
+              dashboard and contributed to backend data pipeline services.
+            </p>
+            <ul class="timeline__bullets">
+              <li>Built a configurable drag-and-drop dashboard builder used by 95% of active customers.</li>
+              <li>Designed and implemented a GraphQL API layer that replaced 12 legacy REST endpoints.</li>
+              <li>Improved CI pipeline speed by 45% by parallelising test suites and optimising Docker layer caching.</li>
+              <li>Integrated Stripe billing, reducing manual invoice processing by 80%.</li>
+            </ul>
+            <div class="timeline__tags">
+              <span>Next.js</span><span>GraphQL</span><span>Python</span><span>Docker</span><span>Stripe</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__content">
+            <div class="timeline__header">
+              <div class="timeline__title-group">
+                <h3 class="timeline__role">Software Engineering Intern</h3>
+                <p class="timeline__company">TechStart Labs</p>
+              </div>
+              <div class="timeline__meta">
+                <span class="timeline__date">May 2020 – Aug 2020</span>
+                <span class="timeline__location">New York, NY · Internship</span>
+              </div>
+            </div>
+            <p class="timeline__summary">
+              Joined a 12-person startup to build internal tooling and contribute to the consumer-facing mobile app.
+            </p>
+            <ul class="timeline__bullets">
+              <li>Developed a CSV import pipeline that saved the ops team 8 hours of manual work per week.</li>
+              <li>Shipped 5 React Native screens for the iOS/Android app from design handoff to production.</li>
+              <li>Wrote end-to-end tests with Cypress, covering critical checkout and auth flows.</li>
+            </ul>
+            <div class="timeline__tags">
+              <span>React Native</span><span>Python</span><span>Cypress</span><span>Firebase</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section education" id="education">
+    <div class="container">
+      <h2 class="section__title">Education &amp; <span class="accent">Training</span></h2>
+      <div class="education__list">
+
+        <div class="edu-card">
+          <div class="edu-card__logo-wrap">
+            <div class="edu-card__logo">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+          </div>
+          <div class="edu-card__body">
+            <div class="edu-card__header">
+              <div>
+                <h3 class="edu-card__degree">Bachelor of Science in Computer Science</h3>
+                <p class="edu-card__school">University of Example · College of Engineering</p>
+              </div>
+              <div class="edu-card__meta">
+                <span class="edu-card__dates">Aug 2017 – May 2021</span>
+                <span class="edu-card__location">Example City, EX</span>
+              </div>
+            </div>
+            <div class="edu-card__details">
+              <span class="edu-card__badge">GPA: 3.82 / 4.0</span>
+              <span class="edu-card__badge">Dean's List — 6 semesters</span>
+              <span class="edu-card__badge">Graduated with Honors</span>
+            </div>
+            <div class="edu-card__courses">
+              <p class="edu-card__courses-label">Relevant Coursework</p>
+              <div class="edu-card__course-tags">
+                <span>Data Structures &amp; Algorithms</span>
+                <span>Operating Systems</span>
+                <span>Computer Networks</span>
+                <span>Compilers</span>
+                <span>Machine Learning</span>
+                <span>Database Systems</span>
+                <span>Software Engineering</span>
+                <span>Computer Architecture</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Academic Projects -->
+  <section class="section acad-projects" id="academic">
+    <div class="container">
+      <h2 class="section__title">Academic <span class="accent">Projects</span></h2>
+      <p class="section__subtitle">Selected projects from coursework and research — built to solve real problems.</p>
+      <div class="projects__grid">
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__course">CS 421 · Compilers</span>
+            <div class="project-card__links">
+              <a href="#" target="_blank" rel="noopener" aria-label="View source">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">MiniLang Compiler</h3>
+          <p class="project-card__description">
+            A fully-featured compiler for a statically-typed C-like language. Implements lexing, parsing,
+            semantic analysis, type checking, and x86 assembly code generation. Earned the highest grade
+            in the class and was demoed at the semester showcase.
+          </p>
+          <div class="project-card__tags">
+            <span>C++</span><span>LLVM IR</span><span>Flex</span><span>Bison</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__course">CS 544 · Machine Learning</span>
+            <div class="project-card__links">
+              <a href="#" target="_blank" rel="noopener" aria-label="View source">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Medical Image Classifier</h3>
+          <p class="project-card__description">
+            A convolutional neural network that classifies chest X-rays for pneumonia with 94.2% accuracy.
+            Applied transfer learning on ResNet-50, trained on the NIH ChestX-ray14 dataset.
+            Paper accepted at the undergraduate research symposium.
+          </p>
+          <div class="project-card__tags">
+            <span>Python</span><span>PyTorch</span><span>ResNet-50</span><span>CUDA</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__course">CS 480 · Distributed Systems</span>
+            <div class="project-card__links">
+              <a href="#" target="_blank" rel="noopener" aria-label="View source">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Raft Consensus Implementation</h3>
+          <p class="project-card__description">
+            A from-scratch implementation of the Raft consensus algorithm in Go, with leader election,
+            log replication, and snapshotting. Tested against a fault-injection harness with 500+ scenarios
+            and achieved 100% correctness on the grading suite.
+          </p>
+          <div class="project-card__tags">
+            <span>Go</span><span>gRPC</span><span>Distributed Systems</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__course">CS 310 · Database Systems</span>
+            <div class="project-card__links">
+              <a href="#" target="_blank" rel="noopener" aria-label="View source">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-card__title">MiniDB Query Engine</h3>
+          <p class="project-card__description">
+            A relational database engine built from scratch supporting SQL parsing, B+ tree indexing,
+            buffer pool management, and multi-table join strategies (nested loop, hash, sort-merge).
+          </p>
+          <div class="project-card__tags">
+            <span>Java</span><span>SQL</span><span>B+ Trees</span><span>Buffer Pool</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
   <!-- Projects -->
   <section class="section projects" id="projects">
     <div class="container">
@@ -242,6 +476,137 @@
           <p>Check out my GitHub profile for more open-source projects and contributions.</p>
           <a href="https://github.com" target="_blank" rel="noopener" class="btn btn--ghost">View GitHub →</a>
         </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section class="section certifications" id="certifications">
+    <div class="container">
+      <h2 class="section__title">Certifications &amp; <span class="accent">Awards</span></h2>
+      <div class="cert-grid">
+
+        <div class="cert-card">
+          <div class="cert-card__badge cert-card__badge--aws">AWS</div>
+          <div class="cert-card__body">
+            <h3 class="cert-card__title">AWS Solutions Architect – Associate</h3>
+            <p class="cert-card__issuer">Amazon Web Services</p>
+            <p class="cert-card__date">Issued Mar 2023 · No expiry</p>
+            <a href="#" target="_blank" rel="noopener" class="cert-card__link">View credential →</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__badge cert-card__badge--gcp">GCP</div>
+          <div class="cert-card__body">
+            <h3 class="cert-card__title">Google Professional Cloud Developer</h3>
+            <p class="cert-card__issuer">Google Cloud</p>
+            <p class="cert-card__date">Issued Sep 2022 · Expires Sep 2024</p>
+            <a href="#" target="_blank" rel="noopener" class="cert-card__link">View credential →</a>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__badge cert-card__badge--meta">Meta</div>
+          <div class="cert-card__body">
+            <h3 class="cert-card__title">Meta Front-End Developer Certificate</h3>
+            <p class="cert-card__issuer">Meta / Coursera</p>
+            <p class="cert-card__date">Issued Jan 2022</p>
+            <a href="#" target="_blank" rel="noopener" class="cert-card__link">View credential →</a>
+          </div>
+        </div>
+
+        <div class="cert-card cert-card--award">
+          <div class="cert-card__badge cert-card__badge--award">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="cert-card__body">
+            <h3 class="cert-card__title">1st Place — HackState Hackathon</h3>
+            <p class="cert-card__issuer">State University Tech Festival</p>
+            <p class="cert-card__date">April 2021 · 200+ participants</p>
+            <p class="cert-card__detail">Built a real-time wildfire detection system using satellite imagery and CV in 24 hours.</p>
+          </div>
+        </div>
+
+        <div class="cert-card cert-card--award">
+          <div class="cert-card__badge cert-card__badge--award">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="cert-card__body">
+            <h3 class="cert-card__title">Dean's Award for Academic Excellence</h3>
+            <p class="cert-card__issuer">University of Example — College of Engineering</p>
+            <p class="cert-card__date">May 2021 · Top 2% of graduating class</p>
+            <p class="cert-card__detail">Recognised for maintaining a 3.82 GPA while leading two research projects.</p>
+          </div>
+        </div>
+
+        <div class="cert-card cert-card--award">
+          <div class="cert-card__badge cert-card__badge--award">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="cert-card__body">
+            <h3 class="cert-card__title">Best Paper — Undergraduate Research Symposium</h3>
+            <p class="cert-card__issuer">University of Example</p>
+            <p class="cert-card__date">Nov 2020</p>
+            <p class="cert-card__detail">Paper: "Transfer Learning Approaches for Low-Resource Medical Image Classification."</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <h2 class="section__title">What People <span class="accent">Say</span></h2>
+      <div class="testimonials__grid">
+
+        <blockquote class="testimonial">
+          <p class="testimonial__quote">
+            "One of the sharpest engineers I've worked with. They consistently delivered complex features
+            ahead of schedule and with outstanding code quality. Their ability to communicate technical
+            trade-offs to non-technical stakeholders is rare and invaluable."
+          </p>
+          <footer class="testimonial__footer">
+            <div class="testimonial__avatar">SM</div>
+            <div>
+              <p class="testimonial__name">Sarah Mitchell</p>
+              <p class="testimonial__role">Engineering Manager · Acme Corporation</p>
+            </div>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p class="testimonial__quote">
+            "They took ownership of our entire frontend rewrite and turned a spaghetti codebase into
+            something our team is genuinely proud of. Proactive, collaborative, and a joy to work with.
+            Highly recommend for any serious engineering role."
+          </p>
+          <footer class="testimonial__footer">
+            <div class="testimonial__avatar">JR</div>
+            <div>
+              <p class="testimonial__name">James Reeves</p>
+              <p class="testimonial__role">CTO · Initech Solutions</p>
+            </div>
+          </footer>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p class="testimonial__quote">
+            "I've hired a lot of developers over the years — they stand out because they
+            actually think about the product, not just the ticket. The work they delivered
+            helped us close our Series A. I wouldn't hesitate to work with them again."
+          </p>
+          <footer class="testimonial__footer">
+            <div class="testimonial__avatar">PK</div>
+            <div>
+              <p class="testimonial__name">Priya Kapoor</p>
+              <p class="testimonial__role">Founder &amp; CEO · TechStart Labs</p>
+            </div>
+          </footer>
+        </blockquote>
 
       </div>
     </div>

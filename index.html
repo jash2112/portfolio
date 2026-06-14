@@ -57,7 +57,6 @@
   .i-serif{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--acc);letter-spacing:-.02em}
   .i-sub{font-family:var(--mono);font-size:clamp(11px,1.2vw,13px);letter-spacing:.22em;text-transform:uppercase;color:var(--soft);margin-top:clamp(22px,3vw,36px);display:flex;align-items:center;gap:14px}
   .i-sub::before{content:"";width:40px;height:1px;background:var(--acc)}
-  .i-rule{position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--line);transform:scaleX(0);transform-origin:left}
 
   /* ============ HERO ============ */
   .hero{min-height:100dvh;display:flex;align-items:center;position:relative;padding-top:110px;padding-bottom:60px}
@@ -87,9 +86,6 @@
   .btn-acc:hover{background:#ef7a5f}
   .btn-line{border:1px solid var(--line2);color:var(--ink)}
   .btn-line:hover{border-color:var(--acc);background:var(--acc-soft)}
-  .scroll-hint{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);font-family:var(--mono);font-size:11px;color:var(--faint);letter-spacing:.2em;animation:bob 2.4s ease-in-out infinite}
-  @keyframes bob{50%{transform:translate(-50%,6px)}}
-  @media(prefers-reduced-motion:reduce){.scroll-hint{animation:none}}
 
   /* ============ MARQUEE ============ */
   .strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden;background:var(--bg2)}
@@ -179,7 +175,6 @@
   .slide-body p{color:var(--soft);font-size:14.5px;font-weight:300;max-width:54ch;margin-bottom:16px}
   .slide-chips{display:flex;flex-wrap:wrap;gap:8px}
   .slide-chips span{font-family:var(--mono);font-size:11px;color:var(--ink);border:1px solid rgba(255,255,255,.16);background:rgba(11,11,13,.4);backdrop-filter:blur(6px);padding:5px 11px;border-radius:999px}
-  .slide-tag{position:absolute;top:16px;left:16px;z-index:2;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;color:var(--ink);background:rgba(11,11,13,.55);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.14);padding:6px 12px;border-radius:999px}
   .s-nav{position:absolute;top:50%;transform:translateY(-50%);z-index:4;width:44px;height:44px;border-radius:50%;
     background:rgba(11,11,13,.55);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.16);
     color:var(--ink);font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;
@@ -439,8 +434,6 @@
     </h1>
     <p class="i-sub reveal-after-load">Product · Marketing · GTM · Data · Strategy</p>
   </div>
-  <div class="scroll-hint">SCROLL</div>
-  <div class="i-rule" id="irule"></div>
 </section>
 
 <!-- ============ PROFILE ============ -->
@@ -638,60 +631,55 @@
 
         <article class="slide">
           <img src="https://picsum.photos/seed/work-aiagent/1600/900" alt="">
-          <div class="slide-tag">[ SWAP: AI agent demo screenshot ]</div>
           <div class="slide-scrim"></div>
           <div class="slide-body">
             <div class="slide-num">01 — TYS · Product Marketing</div>
             <h3>Launching an <em>AI Customer Agent</em></h3>
-            <p>PRD to post-launch metrics: drove a 20% lift in user acquisition by shipping the one workflow users actually asked for. [ Add a result or a link to the deck. ]</p>
+            <p>PRD to post-launch metrics: drove a 20% lift in user acquisition by shipping the one workflow users actually asked for.</p>
             <div class="slide-chips"><span>PRD</span><span>GTM</span><span>Positioning</span><span>Launch</span></div>
           </div>
         </article>
 
         <article class="slide">
           <img src="https://picsum.photos/seed/work-suture/1600/900" alt="">
-          <div class="slide-tag">[ SWAP: journey map / synthesis board ]</div>
           <div class="slide-scrim"></div>
           <div class="slide-body">
             <div class="slide-num">02 — Suture Tech · Discovery</div>
             <h3>50 interviews into an <em>MVP</em></h3>
-            <p>Structured discovery distilled into 8–10 requirements that scoped the build and anchored the investor GTM model. [ Link the synthesis. ]</p>
+            <p>Structured discovery distilled into 8–10 requirements that scoped the build and anchored the investor GTM model.</p>
             <div class="slide-chips"><span>Customer Discovery</span><span>Requirements</span><span>GTM model</span></div>
           </div>
         </article>
 
         <article class="slide">
           <img src="https://picsum.photos/seed/work-position/1600/900" alt="">
-          <div class="slide-tag">[ SWAP: positioning matrix / battlecard ]</div>
           <div class="slide-scrim"></div>
           <div class="slide-body">
             <div class="slide-num">03 — Competitive Strategy</div>
             <h3>A messaging framework <em>sales used</em></h3>
-            <p>Teardown of 4 HR-tech vendors → a differentiated framework adopted across 3 feature categories. [ Show the before/after. ]</p>
+            <p>Teardown of 4 HR-tech vendors → a differentiated framework adopted across 3 feature categories.</p>
             <div class="slide-chips"><span>Competitive Analysis</span><span>Messaging</span><span>Enablement</span></div>
           </div>
         </article>
 
         <article class="slide">
           <img src="https://picsum.photos/seed/work-dashboard/1600/900" alt="">
-          <div class="slide-tag">[ SWAP: Power BI / Tableau dashboard ]</div>
           <div class="slide-scrim"></div>
           <div class="slide-body">
             <div class="slide-num">04 — Cognizant · Data</div>
             <h3>Dashboards as <em>decision tools</em></h3>
-            <p>Adoption KPIs across 30+ enterprise clients; surfaced underperforming cohorts and cut decision turnaround by 42%. [ Add a screenshot. ]</p>
+            <p>Adoption KPIs across 30+ enterprise clients; surfaced underperforming cohorts and cut decision turnaround by 42%.</p>
             <div class="slide-chips"><span>SQL</span><span>Power BI</span><span>Tableau</span><span>Analytics</span></div>
           </div>
         </article>
 
         <article class="slide">
           <img src="https://picsum.photos/seed/work-activation/1600/900" alt="">
-          <div class="slide-tag">[ SWAP: brand activation / event photo ]</div>
           <div class="slide-scrim"></div>
           <div class="slide-body">
             <div class="slide-num">05 — Viral Fission · Activations</div>
             <h3>Brand GTM, <em>on the ground</em></h3>
-            <p>Resume-backed version: market analysis, personas, A/B testing, prototyping, and launch alignment. [ Add brand/campaign names only after confirming them. ]</p>
+            <p>Resume-backed version: market analysis, personas, A/B testing, prototyping, and launch alignment.</p>
             <div class="slide-chips"><span>Event Marketing</span><span>Activations</span><span>Ops</span></div>
           </div>
         </article>
@@ -1300,7 +1288,7 @@ if (window.gsap && !reduced && !document.body.classList.contains('compact-portfo
       c === ' ' ? ' ' : `<span class="ch">${c}</span>`).join('');
   });
   gsap.set('.i-name .ch', {yPercent: 110});
-  gsap.set('.reveal-after-load, .intro .scroll-hint', {opacity: 0, y: 14});
+  gsap.set('.reveal-after-load', {opacity: 0, y: 14});
   document.body.style.overflow = 'hidden';
 
   /* ---- loader: count to 100, wipe up, then name cascade ---- */
@@ -1314,8 +1302,6 @@ if (window.gsap && !reduced && !document.body.classList.contains('compact-portfo
         onComplete: () => document.getElementById('loader').classList.add('done')}, '-=0.05')
     .to('.i-name .ch', {yPercent: 0, duration: 1, ease: 'expo.out', stagger: .035}, '-=0.45')
     .to('.reveal-after-load', {opacity: 1, y: 0, duration: .7, ease: 'power3.out', stagger: .12}, '-=0.6')
-    .to('#irule', {scaleX: 1, duration: 1.1, ease: 'expo.out'}, '-=0.6')
-    .to('.intro .scroll-hint', {opacity: 1, y: 0, duration: .6, ease: 'power3.out'}, '-=0.5');
 
   /* ---- intro name drifts up + fades as you scroll into the profile ---- */
   gsap.to('.i-name', {yPercent: -14, opacity: .25, ease: 'none',
